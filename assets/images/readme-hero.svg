@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Constella habit tracker</title>
+  <desc id="desc">A glowing constellation of colorful habit stars on a deep navy sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#030511"/>
+      <stop offset=".48" stop-color="#09102c"/>
+      <stop offset="1" stop-color="#160e33"/>
+    </linearGradient>
+    <radialGradient id="violetGlow">
+      <stop stop-color="#a98aff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#a98aff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aquaGlow">
+      <stop stop-color="#83e7ff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#83e7ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dust" width="91" height="83" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="17" r="1" fill="#d7e7ff" opacity=".38"/>
+      <circle cx="64" cy="46" r=".8" fill="#83e7ff" opacity=".28"/>
+      <circle cx="38" cy="72" r=".7" fill="#fff" opacity=".3"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="520" rx="30" fill="url(#sky)"/>
+  <circle cx="270" cy="155" r="250" fill="url(#aquaGlow)"/>
+  <circle cx="930" cy="380" r="300" fill="url(#violetGlow)"/>
+  <rect width="1200" height="520" rx="30" fill="url(#dust)"/>
+  <g fill="none" stroke="#c5ceff" stroke-opacity=".34" stroke-width="1.5">
+    <path d="M174 342 326 223 505 322 691 175 862 300 1024 209"/>
+  </g>
+  <g filter="url(#glow)" text-anchor="middle" font-family="Georgia,serif">
+    <text x="174" y="361" font-size="58" fill="#83e7ff">✦</text>
+    <text x="326" y="243" font-size="72" fill="#b394ff">✦</text>
+    <text x="505" y="343" font-size="62" fill="#ffe2a1">✦</text>
+    <text x="691" y="198" font-size="76" fill="#9fffc2">✦</text>
+    <text x="862" y="322" font-size="64" fill="#ffadcf">✦</text>
+    <text x="1024" y="231" font-size="54" fill="#83e7ff">✦</text>
+  </g>
+  <g text-anchor="middle" font-family="Inter,Segoe UI,sans-serif">
+    <text x="600" y="92" fill="#f3f5ff" font-size="48" font-weight="500" letter-spacing="8">CONSTELLA</text>
+    <text x="600" y="124" fill="#aeb8e0" font-size="17" letter-spacing="2">SMALL RITUALS. A SKY THAT GROWS WITH YOU.</text>
+  </g>
+  <g transform="translate(508 438)">
+    <rect width="184" height="38" rx="19" fill="#dce5ff" fill-opacity=".12" stroke="#dce5ff" stroke-opacity=".22"/>
+    <text x="92" y="25" text-anchor="middle" fill="#dce5ff" font-family="Inter,Segoe UI,sans-serif" font-size="13">AI-ASSISTED PRODUCT BUILD</text>
+  </g>
+</svg>
