@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://iahmed22.github.io/habit-tracker/"><strong>Live demo</strong></a>
+  <a href="https://iahmed22.github.io/constella/"><strong>Live demo</strong></a>
   ·
   <a href="#ai-assisted-workflow">AI workflow</a>
   ·
@@ -26,14 +26,14 @@
 ## Product showcase
 
 <p align="center">
-  <img src="assets/images/constella-device-showcase.png" alt="Constella displayed across three iPhones, including its constellation dashboard and calendar" width="100%" />
+  <img src="assets/images/constella-product-showcase.png" alt="Constella habit tracker showcase featuring the constellation dashboard, yearly journal history, and monthly water calendar" width="100%" />
 </p>
 
 <p align="center">
-  <img src="assets/images/constella-theme-showcase.png" alt="Constella dark-sky and dawn-sky themes displayed on two iPhones" width="100%" />
+  <img src="assets/images/constella-linkedin-campaign-v2.png" alt="Constella campaign showing habits written in the stars, a growing sky, visible daily progress, and lasting rhythm" width="100%" />
 </p>
 
-<p align="center"><sub>AI-generated product mockups created from the app’s visual system and interaction design.</sub></p>
+<p align="center"><sub>The constellation dashboard, monthly progress, and year-at-a-glance habit history.</sub></p>
 
 ## The idea
 
@@ -84,7 +84,7 @@ This workflow demonstrates more than prompt generation: it shows how AI can be d
 ## Project structure
 
 ```text
-habit-tracker/
+constella/
 ├── index.html                  # Semantic application structure
 ├── assets/
 │   ├── css/
@@ -107,8 +107,8 @@ No installation is required.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/iahmed22/habit-tracker.git
-   cd habit-tracker
+   git clone https://github.com/iahmed22/constella.git
+   cd constella
    ```
 
 2. Open `index.html` in a modern browser.
