@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://iahmed22.github.io/constella/"><strong>Live demo</strong></a>
+  <a href="https://constellaibrahim.z22.web.core.windows.net/"><strong>Live demo</strong></a>
   ·
   <a href="#ai-assisted-workflow">AI workflow</a>
   ·
